@@ -18,6 +18,7 @@ public class TestController {
     @TarynAutowrited()
     private TestService testServiceImpl;
 
+    //http://localhost:8070/test/query?name=Spring&age=17
     @TarynRequestMapping("/query")
     public void query(HttpServletRequest req, HttpServletResponse res,
                       @TarynRequestParam("name") String name, @TarynRequestParam("age") String age){

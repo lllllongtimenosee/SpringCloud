@@ -2,10 +2,9 @@ package com.taryn.annotation;
 
 import java.lang.annotation.*;
 
-@Target({ElementType.TYPE})
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-@TarynComponent
-public @interface TarynService {
+public @interface TarynComponent {
     String value() default "";
 }

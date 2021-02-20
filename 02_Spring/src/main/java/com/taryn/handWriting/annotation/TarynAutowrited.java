@@ -1,4 +1,4 @@
-package com.taryn.annotation;
+package com.taryn.handWriting.annotation;
 
 import java.lang.annotation.*;
 

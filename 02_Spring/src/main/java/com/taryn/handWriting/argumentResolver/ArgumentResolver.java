@@ -1,4 +1,4 @@
-package com.taryn.argumentResolver;
+package com.taryn.handWriting.argumentResolver;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

@@ -1,4 +1,4 @@
-package com.taryn.service;
+package com.taryn.handWriting.service;
 
 public interface TestService {
 

@@ -1,4 +1,4 @@
-package com.taryn.handlerAdapter;
+package com.taryn.handWriting.handlerAdapter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

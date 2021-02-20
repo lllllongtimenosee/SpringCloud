@@ -1,8 +1,8 @@
-package com.taryn.servlet;
+package com.taryn.handWriting.servlet;
 
-import com.taryn.annotation.*;
-import com.taryn.controller.TestController;
-import com.taryn.handlerAdapter.TarynHandlerAdapter;
+import com.taryn.handWriting.annotation.*;
+import com.taryn.handWriting.controller.TestController;
+import com.taryn.handWriting.handlerAdapter.TarynHandlerAdapter;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -40,7 +40,7 @@ public class DispatcherServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         //包扫描
-        scanPackage("com.taryn");
+        scanPackage("com.taryn.handWriting");
         //实例化
         instance();
         //依赖注入

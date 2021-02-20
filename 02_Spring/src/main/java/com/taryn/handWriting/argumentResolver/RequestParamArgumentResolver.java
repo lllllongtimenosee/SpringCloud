@@ -1,8 +1,7 @@
-package com.taryn.argumentResolver;
+package com.taryn.handWriting.argumentResolver;
 
-import com.taryn.annotation.TarynComponent;
-import com.taryn.annotation.TarynRequestParam;
-import com.taryn.annotation.TarynService;
+import com.taryn.handWriting.annotation.TarynComponent;
+import com.taryn.handWriting.annotation.TarynRequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

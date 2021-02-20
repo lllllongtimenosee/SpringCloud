@@ -1,22 +1,21 @@
-package com.taryn.argumentResolver;
+package com.taryn.handWriting.argumentResolver;
 
-import com.taryn.annotation.TarynComponent;
-import com.taryn.annotation.TarynService;
+import com.taryn.handWriting.annotation.TarynComponent;
 
-import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
 
 @TarynComponent
-public class HttpServletRequestArgumentResolver implements ArgumentResolver{
+public class HttpServletResponseArgumentResolver implements ArgumentResolver{
     @Override
     public boolean support(Class<?> type, int paramIndex, Method method) {
-        return ServletRequest.class.isAssignableFrom(type);
+        return ServletResponse.class.isAssignableFrom(type);
     }
 
     @Override
     public Object argumentResolver(HttpServletRequest req, HttpServletResponse resp, Class<?> type, int paramIndex, Method method) {
-        return req;
+        return resp;
     }
 }

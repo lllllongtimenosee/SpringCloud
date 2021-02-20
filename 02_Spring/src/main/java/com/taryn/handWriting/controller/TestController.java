@@ -1,10 +1,10 @@
-package com.taryn.controller;
+package com.taryn.handWriting.controller;
 
-import com.taryn.annotation.TarynAutowrited;
-import com.taryn.annotation.TarynController;
-import com.taryn.annotation.TarynRequestMapping;
-import com.taryn.annotation.TarynRequestParam;
-import com.taryn.service.TestService;
+import com.taryn.handWriting.annotation.TarynAutowrited;
+import com.taryn.handWriting.annotation.TarynController;
+import com.taryn.handWriting.annotation.TarynRequestMapping;
+import com.taryn.handWriting.annotation.TarynRequestParam;
+import com.taryn.handWriting.service.TestService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

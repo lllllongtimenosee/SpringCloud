@@ -1,7 +1,7 @@
-package com.taryn.service.serviceImpl;
+package com.taryn.handWriting.service.serviceImpl;
 
-import com.taryn.annotation.TarynService;
-import com.taryn.service.TestService;
+import com.taryn.handWriting.annotation.TarynService;
+import com.taryn.handWriting.service.TestService;
 
 @TarynService
 public class TestServiceImpl implements TestService {
